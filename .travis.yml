@@ -6,5 +6,5 @@ dist: trusty
 jdk: oraclejdk11
 
 script:
-  - chmod +x gradlew
-  - ./gradlew clean check
+  - chmod +x mvnw
+  - ./mvnw clean test
